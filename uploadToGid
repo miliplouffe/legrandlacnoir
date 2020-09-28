@@ -1,8 +1,7 @@
-https://github.com/miliplouffe/grandlacnoir.git
+https://github.com/miliplouffe/legrandlacnoir.git
+git push --set-upstream https://github.com/miliplouffe/legrandlacnoir.git.git master
 
-git push --set-upstream https://github.com/miliplouffe/grandlacnoir.git master
-
-git push --set-upstream  https://github.com/miliplouffe/grandlacnoir.git master
+git push --set-upstream  https://github.com/miliplouffe/legrandlacnoir.git master
 
 
 git init
@@ -15,4 +14,5 @@ git push -u origin master
 
 git add --all :/
 git commit -am 'message'
-git push --set-upstream https://github.com/miliplouffe/grandlacnoir.git master
+git push --set-upstream https://github.com/miliplouffe/legrandlacnoir.git master
+git pull --set-upstream https://github.com/miliplouffe/legrandlacnoir.git master
