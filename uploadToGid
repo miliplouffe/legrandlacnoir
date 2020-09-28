@@ -3,3 +3,7 @@ https://github.com/miliplouffe/grandlacnoir.git
 git push --set-upstream https://github.com/miliplouffe/grandlacnoir.git master
 
 git push --set-upstream  https://github.com/miliplouffe/grandlacnoir.git master
+
+git add --all :/
+git commit -am 'message'
+git push --set-upstream https://github.com/miliplouffe/grandlacnoir.git master
