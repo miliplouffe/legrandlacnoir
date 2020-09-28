@@ -1,18 +1,20 @@
-https://github.com/miliplouffe/legrandlacnoir.git
-git push --set-upstream https://github.com/miliplouffe/legrandlacnoir.git.git master
+https://github.com/miliplouffe/legrandlacnoir.git/master/deux.html
+
+git push --set-upstream https://github.com/miliplouffe/legrandlacnoir.git master
 
 git push --set-upstream  https://github.com/miliplouffe/legrandlacnoir.git master
 
 
+create
+echo "# legrandlacnoir" >> README.md
 git init
-git add .
-git commit -m 'message'
-git *create remote
-git push -u origin master
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/miliplouffe/legrandlacnoir.git
+git push -u origin main
 
-
-
-git add --all :/
-git commit -am 'message'
-git push --set-upstream https://github.com/miliplouffe/legrandlacnoir.git master
-git pull --set-upstream https://github.com/miliplouffe/legrandlacnoir.git master
+push an existing repository from the command line
+git remote add origin https://github.com/miliplouffe/legrandlacnoir.git
+git branch -M main
+git push -u origin main
